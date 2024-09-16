@@ -40,7 +40,7 @@ class Department:
         return department
     
     def save(self):
-        """ Insert a new row with the name and location values of the current Department instance.
+        """ Insert new row with the name and location values of the current Department instance.
         Update object id attribute using the primary key value of new row.
         """
         sql = """
